@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="5.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/dialog_bg_color"
+        android:orientation="vertical" >
+
+        <include layout="@layout/dialog_top_title_layout" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+             >
+
+             <TextView
+                android:id="@+id/message"
+                style="@style/TextStytle.DialogMsg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="1dip"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:layout_marginTop="5dip"
+                 />
+            
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progressDrawable="@drawable/progress_drawable"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dip"
+                android:layout_below="@id/message"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:layout_marginTop="16dip" />
+
+            <TextView
+                android:id="@+id/progress_percent"
+                style="@style/TextStytle.DialogMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/progress"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:paddingBottom="16dip" 
+                android:text="0%"
+                />
+
+            <TextView
+                android:id="@+id/progress_number"
+                style="@style/TextStytle.DialogMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/progress"
+                android:layout_marginLeft="16dip"
+                android:layout_marginRight="16dip"
+                android:paddingBottom="16dip" 
+                android:text="0/100"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

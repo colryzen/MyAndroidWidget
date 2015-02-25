@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topPanel"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:background="@color/system_top_bg_color" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/TextStytle.DialogTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="提示"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_close"
+        style="@style/ButtonStytle"
+        android:layout_width="20.0dp"
+        android:layout_height="20.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/common_dialog_btn_close_selector"
+        android:gravity="center" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+      <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+    
+          <style name="ButtonStytle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/system_button_textsize_normal</item>
+    </style>
+
+    <style name="ButtonStytle.Ok">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/system_button_textsize_normal</item>
+        <item name="android:background">@drawable/common_btn_bg</item>
+    </style>
+
+    <style name="ButtonStytle.Cancel">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/common_cancel_text</item>
+        <item name="android:textSize">@dimen/system_button_textsize_normal</item>
+        <item name="android:background">@drawable/common_btn_cancel_selector</item>
+    </style>
+    
+      <style name="TextStytle">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/edit_input_hint_focus_color</item>
+        <item name="android:textSize">@dimen/system_button_textsize_normal</item>
+    </style>
+
+    <style name="TextStytle.TimeBox">
+        <item name="android:textColor">@color/edit_input_hint_focus_color</item>
+    </style>
+    
+    <!-- 对话框 标题 -->
+     <style name="TextStytle.DialogTitle">
+        <item name="android:textColor">@color/white</item>
+         <item name="android:textSize">@dimen/system_button_textsize_big</item>
+    </style>
+    
+      <style name="TextStytle.DialogMsg">
+        <item name="android:textColor">@color/edit_input_hint_focus_color</item>
+    </style>
+     
+    
+</resources>

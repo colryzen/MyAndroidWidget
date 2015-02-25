@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#75FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="gray_transparent">#75808080</color>
+    <color name="red">#FF0000</color>
+    <color name="gold">#FFD700</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="purple">#800080</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="orange">#FFA500</color>
+    <color name="lemonyellow">#FFFACD</color>
+    <color name="graywhite">#F5F5F5</color>
+    <color name="grayslate">#708090</color>
+    <color name="lightblue">#0083FF</color>
+
+    <!-- 主界面菜单 -->
+    <color name="system_bg_color">#efefef</color>
+    <color name="system_top_bg_color">#168ce3</color>
+    
+      
+    <!-- 头部菜单字体颜色 -->
+    <color name="menu_text">#ffffff</color>
+    <color name="menu_text_select">#11538c</color>
+    <!-- 头部菜单中间字体颜色 -->
+    <color name="menu_title_text_color">#672627</color>
+   
+    <color name="menu_bottom_text">#672627</color>
+    <color name="menu_bg">#DBDEE3</color>
+    <color name="menu_simple_text">#656565</color>
+    
+    
+    <color name="common_top_right_btn_text">#168de2</color>
+    <color name="common_top_right_btn_text_select">@color/menu_text_select</color>
+    
+    <color name="common_cancel_text">#168de2</color>
+    
+    <!-- 设置  -->
+    <color name="list_item_fouce_color">#ebebeb</color>
+    <color name="list_item_normal_color">@color/white</color>
+    
+    <!-- 事件log -->
+    
+    <color name="select_time_normal_color">#020202</color>
+    <color name="select_time_select_color">#A0020202</color>
+    <color name="event_item_msg_color">#7f7f7f</color>
+    
+    <!-- 关于 -->
+    <color name="about_txt_color">#888888</color>
+    <!-- 对话框 -->
+    <color name="dialog_bg_color">@color/white</color>
+    
+    <color name="edit_input_hint_normal_color">#979797</color>
+    <color name="edit_input_hint_focus_color">#302d2a</color>
+    
+</resources>

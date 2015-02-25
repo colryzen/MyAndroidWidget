@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 设置背景色（黑色） -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="0.5dip" />
+
+            <gradient
+                android:endColor="#b4b4b4"
+                android:startColor="#b4b4b4" />
+        </shape>
+    </item>
+
+    <!-- 设置进度条颜色（白色） -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="0.5dip" />
+
+                <gradient
+                    android:endColor="#007aff"
+                    android:startColor="#007aff" />
+            </shape>
+        </clip>
+    </item>
+
+    
+      <!-- 设置进度条颜色（白色） -->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="0.5dip" />
+
+                <gradient
+                    android:endColor="#72b4fd"
+                    android:startColor="#72b4fd" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@android:id/background" android:drawable="@drawable/progress_gray" />
+        <item android:id="@android:id/secondaryProgress" android:drawable="@drawable/progress_blue" />
+        <item android:id="@android:id/progress" android:drawable="@drawable/progress_blue" />
+</layer-list> -->
